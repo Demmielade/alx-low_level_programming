@@ -1,7 +1,7 @@
-#include <stdio.h>
+B#include <stdio.h>
 
 /**
- * main - Entry point
+ * main - Prints quote
  * Description - Usage of function "printf"
  * Return: zero on success
  *
