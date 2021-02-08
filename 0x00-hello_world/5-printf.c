@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 /**
- * main - Prints quote
- * Description - Usage of function "printf"
+ * main - main code block
+ * Description: Usage of function "printf"
  * Return: zero on success
  *
  */
