@@ -2,7 +2,9 @@
 
 /**
  * main - Entry point
+ *
  * Description: Usage of the function "printf"
+ * 
  * Return: zero on success
  */
 int main(void)
