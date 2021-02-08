@@ -3,7 +3,7 @@
 /**
  * main - main code block
  * Description: Usage of function "printf"
- * Return: zero on success
+ * Return: 0
  *
  */
 int main(void)
