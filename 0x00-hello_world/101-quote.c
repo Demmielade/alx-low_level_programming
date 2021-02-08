@@ -1,14 +1,13 @@
-#include <stdio.h>
+#include <unistd.h>
 
 /**
- * main - Entry point
+ * main - Prints quote to the standard error
  *
- *Description - Usage of other function name
+ * Return: zero on success
  *
- *Return - zero on success 
  */
- int main(void)
+int main(void)
 {
-	printf("and that piece of art is useful - Dora Korpar, 2015-10-19, /n");
-	return (0);
+	write(2, "and that piece of art is useful - Dora Korpar, 2015-10-19\n", 58);
+	return (1);
 }
