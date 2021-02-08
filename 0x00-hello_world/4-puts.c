@@ -1,11 +1,10 @@
 #include <stdio.h>
 
 /**
- * main - Entry point
+ * main - Prints quote
  *
- * Description - Usage of 'printf' function
+ * Return: zero on success
  *
- * Return - zero on success
  */
 int main(void)
 {
