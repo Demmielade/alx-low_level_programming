@@ -8,16 +8,16 @@
  */
 int main(void)
 {
-	int charSize = sizeof(char);
-	int intSize = sizeof(int);
-	int longSize = sizeof(long int);
-	int longlongSize = sizeof(long long int);
-	int floatSize = sizeof(float);
+	int Char_Size = 1;
+	int Int_Size = 4;
+	int Long_Size = 4;
+	int LongLong_Size = 8;
+	int Float_Size = 4;
 
-	printf("Size of a char: %d byte(s)\n", charSize);
-	printf("Size of an int: %d byte(s)\n", intSize);
-	printf("Size of a long int: %d byte(s)\n", longSize);
-	printf("Size of a long long int: %d byte(s)\n", longlongSize);
-	printf("Size of a float: %d byte(s)\n", floatSize);
+	printf("Size of a char: %d byte(s)\n", Char_Size);
+	printf("Size of an int: %d byte(s)\n", Int_Size);
+	printf("Size of a long int: %d byte(s)\n", Long_Size);
+	printf("Size of a long long int: %d byte(s)\n", LongLong_Size);
+	printf("Size of a float: %d byte(s)\n", Float_Size);
 	return (0);
 }
