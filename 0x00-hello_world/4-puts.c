@@ -2,12 +2,14 @@
 
 /**
  * main - Entry point
- * Description - Usage of the function puts
- * Return: zero on success
  *
+ * Description - Usage of 'printf' function
+ *
+ * Return - zero on success
  */
-   int main(void)
+int main(void)
 {
-        puts("\"Programming is like building a multilingual puzzle");
+	puts("\Programming is like building a multilingual puzzle");
 	return (0);
 }
+	     
