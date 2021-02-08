@@ -2,7 +2,7 @@
 
 /**
  * main - Entry point
- * Description - Usage of the function "puts"
+ * Description - Usage of the function puts
  * Return: zero on success
  *
  */
