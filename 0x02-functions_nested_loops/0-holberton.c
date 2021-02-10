@@ -1,11 +1,12 @@
-#include <stdio.h>
+#include "holberton.h"
 
 /**
- * main - Entry point
+ * main - Prints Holberton
+ * @void: Empty parameter list for main.
  *
- * Description - Prints "Holberton" with _putchar
+ * Description: Prints Holberton w/out stdio
  *
- * Return - zero on success
+ * Return: 0 for success
 */
 int main(void)
 {
@@ -21,4 +22,3 @@ int main(void)
 	_putchar('\n');
 	return (0);
 }
-
