@@ -9,8 +9,11 @@
  *
  * Return - zero on success
 */
-int main()
+int main(void)
 {
+  /**
+   *variable "n" has been declared
+   */
 	int n;
 
 	srand(time(0));
