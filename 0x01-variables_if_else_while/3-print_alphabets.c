@@ -12,11 +12,14 @@ int main(void)
 	char lower_case = 'a';
 	char upper_case = 'A';
 
-	while (lower_case <= 'z', upper_case <= 'Z')
+	while (lower_case <= 'z')
 	{
 		putchar(lower_case);
-		putchar(upper_case);
 		lower_case++;
+	}
+	while (upper_case <= 'Z')
+	{
+		putchar(upper_case);
 		upper_case++;
 	}
 	putchar('\n');
