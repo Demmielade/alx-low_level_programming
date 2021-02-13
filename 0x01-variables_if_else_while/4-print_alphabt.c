@@ -12,7 +12,7 @@ int main(void)
 	char letter = 'a';
 
 	while (letter <= 'z')
-	{	
+	{		
 		if (letter == 'q')
 		{
 			letter++;
@@ -29,4 +29,4 @@ int main(void)
 	}
 	putchar('\n');
 	return (0);
-}	
+}
