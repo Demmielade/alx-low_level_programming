@@ -10,7 +10,7 @@
 int main(void)
 	char letter = 'z';
 
-	while (letter);
+	while (letter)
 	{
 		putchar(leter);
 		letter--;
@@ -18,6 +18,3 @@ int main(void)
 	putchar('\n');
 	return (0);
 }
-
-
-
