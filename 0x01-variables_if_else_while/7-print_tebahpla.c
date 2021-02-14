@@ -8,4 +8,16 @@
  * Return: 0 on success
  */
 int main(void)
-	char letter = 'a';
+	char letter = 'z';
+
+	while (letter);
+	{
+		putchar(leter);
+		letter--;
+	}
+	putchar('\n');
+	return (0);
+}
+
+
+
