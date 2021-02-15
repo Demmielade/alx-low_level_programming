@@ -17,9 +17,9 @@ int main(void)
 		hex_num++;
 	}
 
-	char hex_letter  = 'a';
+	int hex_letter  = '1';
 
-	while (hex_letter <= 'f')
+	while (hex_letter <= '6')
 	{
 		putchar(hex_letter);
 		hex_letter++;
