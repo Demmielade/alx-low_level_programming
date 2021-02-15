@@ -13,15 +13,15 @@ int main(void)
 
 	for (combo1 = '0'; combo1 = '9'; combo1++)
 	{
-		for (combo2 = '9'; combo2 = '0'; combo2++)
+		for (combo2 = '0'; combo2 = '9'; combo2++)
 		{
 
 			putchar(combo1);
 			putchar(combo2);
-			if (combo1 + combo2 <= '9')
+			if (combo1 + combo2 <= '18')
 			{
-				putchar(0);
-				putchar(9);
+				putchar(',');
+				putchar(' ');
 			}
 		}
 	}
