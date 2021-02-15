@@ -11,10 +11,10 @@ int main(void)
 {
 	int combo = '0';
 
-	while (combo < '9')
+	while (combo <= '9')
 	{
 		putchar(combo);
-		if (combo < 9)
+		if (combo < '9')
 		{
 			putchar(',');
 			putchar(' ');
