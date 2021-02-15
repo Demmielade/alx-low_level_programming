@@ -17,12 +17,12 @@ int main(void)
 		hex_num++;
 	}
 
-	int hex_letter  = '1';
+	hex_num  = '1';
 
-	while (hex_letter <= '6')
+	while (hex_num <= '6')
 	{
-		putchar(hex_letter);
-		hex_letter++;
+		putchar(hex_num);
+		hex_num++;
 	}
 	putchar('\n');
 	return (0);
