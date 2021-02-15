@@ -17,9 +17,9 @@ int main(void)
 		hex_num++;
 	}
 
-	hex_num  = '1';
+	hex_num  = 'a';
 
-	while (hex_num <= '6')
+	while (hex_num <= 'f')
 	{
 		putchar(hex_num);
 		hex_num++;
