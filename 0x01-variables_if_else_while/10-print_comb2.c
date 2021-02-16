@@ -11,7 +11,7 @@ int main(void)
 {
 	int combo1, combo2;
 
-	for (combo1 = '0'; combo1 = '9'; combo1++)
+	for (combo1 = '0'; combo1 <= '9'; combo1++)
 	{
 		for (combo2 = '9'; combo2 = '0'; combo2++)
 		{
