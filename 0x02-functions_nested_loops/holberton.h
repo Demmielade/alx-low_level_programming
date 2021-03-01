@@ -1,3 +1,6 @@
+#define HOLBERTON_H
+#ifndef HOLBERTON_H
+
 /**
  * Print 'holberton' using _putchar
  */
@@ -13,3 +16,5 @@ void puts2(char *str);
 void puts_half(char *str);
 void print_array(int *a, int n);
 char *_strcpy(char *dest, char *src);
+
+#endif /* HOLBERTON */
